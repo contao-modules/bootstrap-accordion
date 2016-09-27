@@ -1,0 +1,16 @@
+<?php 
+/**
+* @file ce_accordion_wrapper_stop.html5
+* @brief close wrapper around accordion elements
+* @note splitting between fe and be output is needed because of not closed divs of ce_accordion_wrapper_start and ce_accordion_wrapper_end that cause output problems in backend
+* @author Katrin Beutler
+* @version 3.5.6
+* @package kb.contao.extensions.ce
+* @copyright Katrin Beutler 
+*/
+?>
+<?php if (TL_MODE == 'FE'): ?>
+    </div>
+<?php else: ?>
+    <?php //no special outpout for backend ?>
+<?php endif; ?>

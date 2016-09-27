@@ -1,0 +1,13 @@
+<?php /**
+* @file ce_accordion_stop.html5
+* @brief accordion element changed for bootstrap accordion (http://getbootstrap.com/javascript/#collapse)
+* 		 To group the accordions use an ce_accordion_wrapper_stop element!!!
+* @author Katrin Beutler
+* @version 3.5.6
+* @package kb.contao.extensions.ce
+* @copyright Katrin Beutler 
+*/?>
+
+		</div>
+    </div>
+</div>
